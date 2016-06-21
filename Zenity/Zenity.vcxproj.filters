@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{890cc228-c667-4898-a9e2-fe9197eef765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Device">
+      <UniqueIdentifier>{50b9a060-0871-4e37-93b4-515e328a2cde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>{7ab84fdb-4975-4489-8fd8-c85e8348d5f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Component">
+      <UniqueIdentifier>{7b263d98-f69b-4569-9f37-35b268180866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Scene">
+      <UniqueIdentifier>{5a2fa370-82fb-4fef-b213-afdf8f9bc1fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Scene">
+      <UniqueIdentifier>{f1d1c305-bd35-459a-84bb-cc519466b306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Manager">
+      <UniqueIdentifier>{fc7c70a5-41da-4490-8323-d6c54ad52601}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\GameObject">
+      <UniqueIdentifier>{5af6861c-9177-47d0-8d23-7c30eee8b2cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\GameObject\Component">
+      <UniqueIdentifier>{5d4096a7-3435-4376-b035-d918517b85da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BeginScene.cpp">
+      <Filter>Content\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletSpawner.cpp">
+      <Filter>Content\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerController.cpp">
+      <Filter>Content\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadRenderer.cpp">
+      <Filter>Core\GameObject\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneBase.cpp">
+      <Filter>Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Core\GameObject\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="InputMgr.cpp">
+      <Filter>Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentBase.cpp">
+      <Filter>Core\GameObject\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>Core\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Core\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Content\Component</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BeginScene.h">
+      <Filter>Content\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletSpawner.h">
+      <Filter>Content\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentType.h">
+      <Filter>Core\GameObject\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentBase.h">
+      <Filter>Core\GameObject\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>Core\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.h">
+      <Filter>Content\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadRenderer.h">
+      <Filter>Core\GameObject\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneBase.h">
+      <Filter>Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ISceneBase.h">
+      <Filter>Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneRegistrar.h">
+      <Filter>Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Core\GameObject\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="InputMgr.h">
+      <Filter>Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ZDefine.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Zstdafx.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Core\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Content\Component</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
